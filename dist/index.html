@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Office Shortcuts Pro</title>
+<style>
+:root{--bg:#0f172a;--bg2:#1e293b;--card:#1e293b;--text:#f1f5f9;--muted:#94a3b8;--accent:#3b82f6;--accent2:#8b5cf6;--border:#334155;--success:#22c55e;--warn:#f59e0b;--danger:#ef4444}
+[data-theme="light"]{--bg:#f1f5f9;--bg2:#ffffff;--card:#ffffff;--text:#0f172a;--muted:#64748b;--border:#e2e8f0}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',Tahoma,Arial,sans-serif;-webkit-tap-highlight-color:transparent}
+body{background:var(--bg);color:var(--text);min-height:100vh;transition:.3s}
+header{position:sticky;top:0;z-index:50;background:var(--bg2);border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.topbar{max-width:1000px;margin:auto;display:flex;align-items:center;gap:10px;padding:12px 16px;flex-wrap:wrap}
+.logo{font-weight:800;font-size:18px}
+.badge{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-size:11px;padding:2px 8px;border-radius:20px;vertical-align:middle}
+nav{display:flex;gap:6px}
+nav button,.icon-btn,.lang button{background:var(--card);border:1px solid var(--border);color:var(--text);border-radius:10px;padding:8px 12px;font-size:16px;cursor:pointer;transition:.2s}
+nav button.active,.filters button.active,.lang button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.spacer{flex:1}
+.lang{display:flex;gap:4px}
+.lang button{font-size:13px;font-weight:700}
+main{max-width:1000px;margin:auto;padding:18px 16px 60px}
+.hero{text-align:center;padding:26px 10px;background:linear-gradient(135deg,#3b82f6,#8b5cf6,#ec4899);border-radius:18px;color:#fff;margin-bottom:16px}
+.hero h1{font-size:28px;margin-bottom:8px}
+.hero p{opacity:.92;font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:12px;text-align:center}
+.stat b{font-size:20px;display:block}
+.stat span{font-size:12px;color:var(--muted)}
+.app-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.app-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px;text-align:center;cursor:pointer;transition:.2s}
+.app-card.active{outline:2px solid var(--accent)}
+.app-card h3{font-size:16px;margin-bottom:4px}
+.app-card .count{font-size:22px;font-weight:800}
+.app-card small{color:var(--muted);font-size:12px}
+.app-card.word{border-top:4px solid #2b579a}.app-card.excel{border-top:4px solid #217346}.app-card.ppt{border-top:4px solid #d24726}
+.controls{display:flex;gap:8px;margin-bottom:10px}
+.controls input,.controls select{flex:1;background:var(--card);border:1px solid var(--border);color:var(--text);border-radius:10px;padding:10px 12px;font-size:14px}
+.controls select{max-width:180px}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.filters button{background:var(--card);border:1px solid var(--border);color:var(--text);border-radius:20px;padding:7px 14px;font-size:13px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px;position:relative}
+.card h4{font-size:14px;margin-bottom:8px;line-height:1.5;padding-inline-end:30px}
+.keys{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;direction:ltr;justify-content:flex-start}
+[dir="rtl"] .keys{justify-content:flex-end}
+kbd{background:var(--bg);border:1px solid var(--border);border-bottom-width:3px;border-radius:6px;padding:3px 9px;font-family:monospace;font-size:12px;font-weight:700}
+.meta{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+.tag{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--bg);border:1px solid var(--border)}
+.tag.word{color:#60a5fa}.tag.excel{color:#4ade80}.tag.powerpoint{color:#fb923c}.tag.general{color:#c084fc}
+.fav{position:absolute;top:10px;inset-inline-end:10px;background:none;border:none;font-size:18px;cursor:pointer;opacity:.9}
+.fav.on{filter:drop-shadow(0 0 4px gold)}
+.copy{background:none;border:1px solid var(--border);border-radius:8px;color:var(--muted);font-size:12px;padding:4px 8px;cursor:pointer;margin-top:8px}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(80px);background:#111827;color:#fff;padding:10px 20px;border-radius:30px;font-size:14px;opacity:0;transition:.3s;z-index:100}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.quiz-box{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px;text-align:center;max-width:600px;margin:auto}
+.q-keys{display:flex;gap:8px;justify-content:center;margin:14px 0;direction:ltr}
+.q-keys kbd{font-size:18px;padding:8px 16px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:none}
+#quizOpts{display:grid;gap:8px;margin-top:12px}
+#quizOpts button{background:var(--bg);border:1px solid var(--border);color:var(--text);border-radius:10px;padding:12px;font-size:14px;cursor:pointer}
+#quizOpts button.correct{background:var(--success);color:#fff;border-color:var(--success)}
+#quizOpts button.wrong{background:var(--danger);color:#fff;border-color:var(--danger)}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:18px}
+.empty{text-align:center;color:var(--muted);padding:30px;grid-column:1/-1}
+@media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}.app-cards{grid-template-columns:1fr 1fr 1fr}.app-card h3{font-size:13px}.hero h1{font-size:22px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <div class="logo">⌨️ Office Shortcuts <span class="badge">Pro</span></div>
+    <nav>
+      <button data-view="home" class="active" id="nav-home">🏠</button>
+      <button data-view="favorites" id="nav-fav">❤️</button>
+      <button data-view="quiz" id="nav-quiz">🎯</button>
+    </nav>
+    <div class="spacer"></div>
+    <div class="lang">
+      <button data-lang="ar" class="active">عربي</button>
+      <button data-lang="en">EN</button>
+      <button data-lang="fr">FR</button>
+    </div>
+    <button class="icon-btn" id="themeBtn" title="theme">🌙</button>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <h1 id="t-title">Office Shortcuts Pro</h1>
+    <p id="t-subtitle"></p>
+  </section>
+  <div class="stats" id="stats"></div>
+  <div id="view-home">
+    <div class="app-cards">
+      <div class="app-card word" data-app="word"><h3>📘 Word</h3><div class="count" data-count="word"></div><small data-cat-word></small></div>
+      <div class="app-card excel" data-app="excel"><h3>📗 Excel</h3><div class="count" data-count="excel"></div><small data-cat-excel></small></div>
+      <div class="app-card ppt" data-app="powerpoint"><h3>📙 PowerPoint</h3><div class="count" data-count="powerpoint"></div><small data-cat-ppt></small></div>
+    </div>
+    <div class="controls">
+      <input id="search" type="search" placeholder="...">
+      <select id="catFilter"></select>
+    </div>
+    <div class="filters" id="appFilters">
+      <button data-f="all" class="active">All</button>
+      <button data-f="general">🌐</button>
+      <button data-f="word">Word</button>
+      <button data-f="excel">Excel</button>
+      <button data-f="powerpoint">PowerPoint</button>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+  <div id="view-favorites" style="display:none">
+    <h2 id="t-fav" style="margin-bottom:12px"></h2>
+    <div class="grid" id="favGrid"></div>
+  </div>
+  <div id="view-quiz" style="display:none">
+    <h2 id="t-quiz" style="margin-bottom:12px;text-align:center"></h2>
+    <div class="quiz-box">
+      <div id="quizScore"></div>
+      <p id="quizQ" style="font-weight:700;margin-top:8px"></p>
+      <div class="q-keys" id="quizKeys"></div>
+      <div id="quizOpts"></div>
+      <button class="icon-btn" id="nextQuiz" style="margin-top:12px;padding:10px 22px">⏭️</button>
+    </div>
+  </div>
+</main>
+<div class="toast" id="toast"></div>
+<footer>Office Shortcuts Pro — Word • Excel • PowerPoint | Native Android App</footer>
+<script>
+const DATA=[
+{a:"general",k:["Ctrl","C"],ar:"نسخ العنصر المحدد",en:"Copy selected item",fr:"Copier l'élément",c:"editing"},
+{a:"general",k:["Ctrl","X"],ar:"قص العنصر المحدد",en:"Cut selected item",fr:"Couper l'élément",c:"editing"},
+{a:"general",k:["Ctrl","V"],ar:"لصق العنصر المنسوخ",en:"Paste copied item",fr:"Coller l'élément",c:"editing"},
+{a:"general",k:["Ctrl","Z"],ar:"التراجع عن آخر إجراء",en:"Undo last action",fr:"Annuler",c:"editing"},
+{a:"general",k:["Ctrl","Y"],ar:"إعادة الإجراء",en:"Redo action",fr:"Rétablir",c:"editing"},
+{a:"general",k:["Ctrl","S"],ar:"حفظ الملف",en:"Save file",fr:"Enregistrer",c:"file"},
+{a:"general",k:["Ctrl","O"],ar:"فتح ملف",en:"Open file",fr:"Ouvrir",c:"file"},
+{a:"general",k:["Ctrl","N"],ar:"مستند جديد",en:"New document",fr:"Nouveau",c:"file"},
+{a:"general",k:["Ctrl","P"],ar:"طباعة",en:"Print",fr:"Imprimer",c:"file"},
+{a:"general",k:["Ctrl","F"],ar:"بحث",en:"Find",fr:"Rechercher",c:"editing"},
+{a:"general",k:["Ctrl","H"],ar:"بحث واستبدال",en:"Find and Replace",fr:"Rechercher et remplacer",c:"editing"},
+{a:"general",k:["Ctrl","A"],ar:"تحديد الكل",en:"Select all",fr:"Tout sélectionner",c:"editing"},
+{a:"word",k:["Ctrl","B"],ar:"خط عريض",en:"Bold",fr:"Gras",c:"formatting"},
+{a:"word",k:["Ctrl","I"],ar:"خط مائل",en:"Italic",fr:"Italique",c:"formatting"},
+{a:"word",k:["Ctrl","U"],ar:"تسطير",en:"Underline",fr:"Souligné",c:"formatting"},
+{a:"word",k:["Ctrl","E"],ar:"توسيط الفقرة",en:"Center paragraph",fr:"Centrer",c:"formatting"},
+{a:"word",k:["Ctrl","J"],ar:"ضبط الفقرة",en:"Justify",fr:"Justifier",c:"formatting"},
+{a:"word",k:["Ctrl","L"],ar:"محاذاة لليسار",en:"Align left",fr:"Aligner à gauche",c:"formatting"},
+{a:"word",k:["Ctrl","R"],ar:"محاذاة لليمين",en:"Align right",fr:"Aligner à droite",c:"formatting"},
+{a:"word",k:["Ctrl","D"],ar:"نافذة الخط",en:"Font dialog",fr:"Police",c:"formatting"},
+{a:"word",k:["Ctrl","M"],ar:"زيادة المسافة البادئة",en:"Increase indent",fr:"Augmenter le retrait",c:"formatting"},
+{a:"word",k:["F7"],ar:"تدقيق إملائي",en:"Spelling check",fr:"Orthographe",c:"review"},
+{a:"word",k:["Ctrl","K"],ar:"إدراج ارتباط تشعبي",en:"Insert hyperlink",fr:"Insérer un lien",c:"insert"},
+{a:"word",k:["Ctrl","Enter"],ar:"فاصل صفحة",en:"Page break",fr:"Saut de page",c:"insert"},
+{a:"excel",k:["Ctrl","T"],ar:"إنشاء جدول",en:"Create table",fr:"Créer un tableau",c:"tables"},
+{a:"excel",k:["Ctrl",";"],ar:"إدخال التاريخ الحالي",en:"Insert current date",fr:"Date du jour",c:"insert"},
+{a:"excel",k:["Ctrl","Shift",":"],ar:"إدخال الوقت الحالي",en:"Insert current time",fr:"Heure actuelle",c:"insert"},
+{a:"excel",k:["F2"],ar:"تحرير الخلية",en:"Edit cell",fr:"Modifier cellule",c:"editing"},
+{a:"excel",k:["F4"],ar:"تثبيت مرجع الخلية ($)",en:"Lock cell reference",fr:"Figer référence",c:"formulas"},
+{a:"excel",k:["Ctrl","Shift","L"],ar:"تصفية البيانات",en:"Filter data",fr:"Filtrer",c:"data"},
+{a:"excel",k:["Alt","="],ar:"جمع تلقائي",en:"AutoSum",fr:"Somme auto",c:"formulas"},
+{a:"excel",k:["Ctrl","`"],ar:"عرض الصيغ",en:"Show formulas",fr:"Afficher formules",c:"formulas"},
+{a:"excel",k:["Ctrl","Arrow"],ar:"الانتقال لآخر خلية",en:"Jump to edge",fr:"Aller au bord",c:"navigation"},
+{a:"excel",k:["Ctrl","Space"],ar:"تحديد العمود",en:"Select column",fr:"Sélectionner colonne",c:"navigation"},
+{a:"excel",k:["Shift","Space"],ar:"تحديد الصف",en:"Select row",fr:"Sélectionner ligne",c:"navigation"},
+{a:"powerpoint",k:["F5"],ar:"بدء العرض من الأول",en:"Start slideshow",fr:"Diaporama",c:"slideshow"},
+{a:"powerpoint",k:["Shift","F5"],ar:"العرض من الشريحة الحالية",en:"Show from current",fr:"Diaporama actuel",c:"slideshow"},
+{a:"powerpoint",k:["Ctrl","M"],ar:"شريحة جديدة",en:"New slide",fr:"Nouvelle diapositive",c:"slides"},
+{a:"powerpoint",k:["Ctrl","D"],ar:"تكرار الشريحة",en:"Duplicate slide",fr:"Dupliquer",c:"slides"},
+{a:"powerpoint",k:["Esc"],ar:"إنهاء العرض",en:"End slideshow",fr:"Fin diaporama",c:"slideshow"},
+{a:"powerpoint",k:["N"],ar:"الشريحة التالية أثناء العرض",en:"Next slide",fr:"Suivante",c:"slideshow"},
+{a:"powerpoint",k:["P"],ar:"الشريحة السابقة أثناء العرض",en:"Previous slide",fr:"Précédente",c:"slideshow"},
+{a:"powerpoint",k:["B"],ar:"شاشة سوداء أثناء العرض",en:"Black screen",fr:"Écran noir",c:"slideshow"},
+{a:"powerpoint",k:["Ctrl","Shift","G"],ar:"تجميع الأشكال",en:"Group shapes",fr:"Grouper",c:"formatting"},
+{a:"word",k:["Ctrl","Shift","C"],ar:"نسخ التنسيق",en:"Copy formatting",fr:"Copier mise en forme",c:"formatting"},
+{a:"word",k:["Ctrl","Shift","V"],ar:"لصق التنسيق",en:"Paste formatting",fr:"Coller mise en forme",c:"formatting"},
+{a:"general",k:["Alt","Tab"],ar:"التبديل بين النوافذ",en:"Switch windows",fr:"Changer fenêtre",c:"navigation"},
+{a:"general",k:["Ctrl","W"],ar:"إغلاق النافذة",en:"Close window",fr:"Fermer",c:"file"},
+{a:"general",k:["F1"],ar:"مساعدة",en:"Help",fr:"Aide",c:"general"}
+];
+const I18N={
+ar:{title:"Office Shortcuts Pro",sub:"أتقن Word و Excel و PowerPoint — ابحث، احفظ في المفضلة، واختبر نفسك",search:"ابحث عن اختصار... (مثال: نسخ، Bold، Gras)",allCats:"كل الفئات",fav:"المفضلة ❤️",quiz:"اختبار الاختصارات 🎯",q:"ما وظيفة هذا الاختصار؟",next:"التالي ⏭️",score:"النقاط",copied:"تم النسخ!",added:"أضيف للمفضلة",removed:"أزيل من المفضلة",empty:"لا توجد نتائج",emptyFav:"لا توجد مفضلة بعد — اضغط ❤️ لحفظ اختصار",cats:{editing:"تحرير",file:"ملف",formatting:"تنسيق",insert:"إدراج",review:"مراجعة",tables:"جداول",formulas:"صيغ",data:"بيانات",navigation:"تنقل",slides:"شرائح",slideshow:"عرض",general:"عام"},total:"الإجمالي",apps:{word:"فئات Word",excel:"فئات Excel",powerpoint:"فئات PowerPoint"}},
+en:{title:"Office Shortcuts Pro",sub:"Master Word, Excel & PowerPoint — search, favorite, quiz yourself",search:"Search shortcut... (e.g. copy, bold)",allCats:"All categories",fav:"Favorites ❤️",quiz:"Shortcuts Quiz 🎯",q:"What does this shortcut do?",next:"Next ⏭️",score:"Score",copied:"Copied!",added:"Added to favorites",removed:"Removed",empty:"No results",emptyFav:"No favorites yet — tap ❤️ to save",cats:{editing:"Editing",file:"File",formatting:"Formatting",insert:"Insert",review:"Review",tables:"Tables",formulas:"Formulas",data:"Data",navigation:"Navigation",slides:"Slides",slideshow:"Slideshow",general:"General"},total:"Total",apps:{word:"Word cats",excel:"Excel cats",powerpoint:"PowerPoint cats"}},
+fr:{title:"Office Shortcuts Pro",sub:"Maîtrisez Word, Excel & PowerPoint — recherchez, favoris, quiz",search:"Rechercher... (ex: copier, gras)",allCats:"Toutes catégories",fav:"Favoris ❤️",quiz:"Quiz Raccourcis 🎯",q:"Que fait ce raccourci ?",next:"Suivant ⏭️",score:"Score",copied:"Copié !",added:"Ajouté aux favoris",removed:"Retiré",empty:"Aucun résultat",emptyFav:"Aucun favori — touchez ❤️",cats:{editing:"Édition",file:"Fichier",formatting:"Mise en forme",insert:"Insertion",review:"Révision",tables:"Tableaux",formulas:"Formules",data:"Données",navigation:"Navigation",slides:"Diapos",slideshow:"Diaporama",general:"Général"},total:"Total",apps:{word:"Cats Word",excel:"Cats Excel",powerpoint:"Cats PowerPoint"}}
+};
+let lang=localStorage.getItem('osp-lang')||'ar', filterApp='all', filterCat='all', query='', favs=JSON.parse(localStorage.getItem('osp-fav')||'[]'), score=parseInt(localStorage.getItem('osp-score')||'0');
+const $=id=>document.getElementById(id);
+function t(){return I18N[lang]}
+function toast(m){const e=$('toast');e.textContent=m;e.classList.add('show');clearTimeout(e._h);e._h=setTimeout(()=>e.classList.remove('show'),1500)}
+function applyLang(){const d=t();document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';$('t-title').textContent=d.title;$('t-subtitle').textContent=d.sub;$('search').placeholder=d.search;$('t-fav').textContent=d.fav;$('t-quiz').textContent=d.quiz;$('quizScore').textContent='⭐ '+d.score+': '+score;$('nextQuiz').textContent=d.next;document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));buildCatFilter();document.querySelector('[data-cat-word]').textContent=d.apps.word;document.querySelector('[data-cat-excel]').textContent=d.apps.excel;document.querySelector('[data-cat-ppt]').textContent=d.apps.powerpoint;render()}
+function buildCatFilter(){const s=$('catFilter');const cats=[...new Set(DATA.map(x=>x.c))];s.innerHTML='<option value="all">'+t().allCats+'</option>'+cats.map(c=>'<option value="'+c+'"'+(filterCat===c?' selected':'')+'>'+(t().cats[c]||c)+'</option>').join('')}
+function desc(o){return lang==='ar'?o.ar:lang==='fr'?o.fr:o.en}
+function filtered(){return DATA.filter(o=>(filterApp==='all'||o.a===filterApp)&&(filterCat==='all'||o.c===filterCat)&&(!query||desc(o).includes(query)||o.k.join('+').toLowerCase().includes(query.toLowerCase())))}
+function cardHTML(o,i){const isFav=favs.includes(o.k.join('+')+o.a);return '<div class="card"><button class="fav '+(isFav?'on':'')+'" data-i="'+i+'">'+(isFav?'❤️':'🤍')+'</button><div class="keys">'+o.k.map(k=>'<kbd>'+k+'</kbd>').join('<span>+</span>')+'</div><h4>'+desc(o)+'</h4><div class="meta"><span class="tag '+o.a+'">'+o.a+'</span><span>'+(t().cats[o.c]||o.c)+'</span></div><button class="copy" data-copy="'+i+'">📋 '+o.k.join(' + ')+'</button></div>'}
+function render(){const list=filtered();$('grid').innerHTML=list.length?list.map(o=>cardHTML(o,DATA.indexOf(o))).join(''):'<div class="empty">'+t().empty+'</div>';const fg=DATA.filter(o=>favs.includes(o.k.join('+')+o.a));$('favGrid').innerHTML=fg.length?fg.map(o=>cardHTML(o,DATA.indexOf(o))).join(''):'<div class="empty">'+t().emptyFav+'</div>';document.querySelector('[data-count="word"]').textContent=DATA.filter(x=>x.a==='word').length;document.querySelector('[data-count="excel"]').textContent=DATA.filter(x=>x.a==='excel').length;document.querySelector('[data-count="powerpoint"]').textContent=DATA.filter(x=>x.a==='powerpoint').length;$('stats').innerHTML='<div class="stat"><b>'+DATA.length+'</b><span>'+t().total+'</span></div><div class="stat"><b>'+DATA.filter(x=>x.a==='word').length+'</b><span>Word</span></div><div class="stat"><b>'+DATA.filter(x=>x.a==='excel').length+'</b><span>Excel</span></div><div class="stat"><b>'+favs.length+'</b><span>❤️</span></div>'}
+let quizCurrent=null;
+function newQuiz(){const pool=DATA;quizCurrent=pool[Math.floor(Math.random()*pool.length)];const correct=desc(quizCurrent);const others=pool.filter(x=>x!==quizCurrent).sort(()=>.5-Math.random()).slice(0,3).map(desc);const opts=[correct,...others].sort(()=>.5-Math.random());$('quizQ').textContent=t().q;$('quizKeys').innerHTML=quizCurrent.k.map(k=>'<kbd>'+k+'</kbd>').join('<span style="color:#fff">+</span>');$('quizOpts').innerHTML=opts.map(o=>'<button data-o="'+o.replace(/"/g,'&quot;')+'">'+o+'</button>').join('');document.querySelectorAll('#quizOpts button').forEach(b=>b.onclick=()=>{if(b.textContent===correct){b.classList.add('correct');score++;localStorage.setItem('osp-score',score);$('quizScore').textContent='⭐ '+t().score+': '+score;toast('✅ +1')}else{b.classList.add('wrong');[...document.querySelectorAll('#quizOpts button')].find(x=>x.textContent===correct)?.classList.add('correct')}})}
+document.addEventListener('click',e=>{const f=e.target.closest('.fav');if(f){const o=DATA[+f.dataset.i];const id=o.k.join('+')+o.a;if(favs.includes(id)){favs=favs.filter(x=>x!==id);toast(t().removed)}else{favs.push(id);toast(t().added)}localStorage.setItem('osp-fav',JSON.stringify(favs));render();return}const c=e.target.closest('[data-copy]');if(c){const o=DATA[+c.dataset.copy];const txt=o.k.join(' + ');if(navigator.clipboard)navigator.clipboard.writeText(txt);toast(t().copied);return}const v=e.target.closest('[data-view]');if(v){document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b===v));$('view-home').style.display=v.dataset.view==='home'?'':'none';$('view-favorites').style.display=v.dataset.view==='favorites'?'':'none';$('view-quiz').style.display=v.dataset.view==='quiz'?'':'none';if(v.dataset.view==='quiz')newQuiz();return}const l=e.target.closest('[data-lang]');if(l){lang=l.dataset.lang;localStorage.setItem('osp-lang',lang);applyLang();return}const fl=e.target.closest('#appFilters button');if(fl){document.querySelectorAll('#appFilters button').forEach(b=>b.classList.toggle('active',b===fl));filterApp=fl.dataset.f;render();return}const ac=e.target.closest('.app-card');if(ac){filterApp=filterApp===ac.dataset.app?'all':ac.dataset.app;document.querySelectorAll('.app-card').forEach(x=>x.classList.toggle('active',x.dataset.app===filterApp));document.querySelectorAll('#appFilters button').forEach(b=>b.classList.toggle('active',b.dataset.f===filterApp));render()}});
+$('search').addEventListener('input',e=>{query=e.target.value.trim();render()});
+$('catFilter').addEventListener('change',e=>{filterCat=e.target.value;render()});
+$('themeBtn').onclick=()=>{const h=document.documentElement;const dark=h.dataset.theme==='dark';h.dataset.theme=dark?'light':'dark';$('themeBtn').textContent=dark?'☀️':'🌙';localStorage.setItem('osp-theme',h.dataset.theme)};
+(function(){const th=localStorage.getItem('osp-theme');if(th){document.documentElement.dataset.theme=th;$('themeBtn').textContent=th==='dark'?'🌙':'☀️'}})();
+$('nextQuiz').onclick=newQuiz;
+applyLang();
+</script>
+</body>
+</html>
