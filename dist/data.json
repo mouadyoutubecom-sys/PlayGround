@@ -1,0 +1,1859 @@
+[
+  {
+    "id": 1,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "N"
+    ],
+    "desc_ar": "ملف جديد",
+    "desc_en": "Create a new file",
+    "desc_fr": "Créer un nouveau fichier"
+  },
+  {
+    "id": 2,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "O"
+    ],
+    "desc_ar": "فتح ملف",
+    "desc_en": "Open a file",
+    "desc_fr": "Ouvrir un fichier"
+  },
+  {
+    "id": 3,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "S"
+    ],
+    "desc_ar": "حفظ",
+    "desc_en": "Save",
+    "desc_fr": "Enregistrer"
+  },
+  {
+    "id": 4,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "S"
+    ],
+    "desc_ar": "حفظ باسم",
+    "desc_en": "Save As",
+    "desc_fr": "Enregistrer sous"
+  },
+  {
+    "id": 5,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "P"
+    ],
+    "desc_ar": "طباعة",
+    "desc_en": "Print",
+    "desc_fr": "Imprimer"
+  },
+  {
+    "id": 6,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "W"
+    ],
+    "desc_ar": "إغلاق الملف",
+    "desc_en": "Close the file",
+    "desc_fr": "Fermer le fichier"
+  },
+  {
+    "id": 7,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "Z"
+    ],
+    "desc_ar": "تراجع",
+    "desc_en": "Undo",
+    "desc_fr": "Annuler"
+  },
+  {
+    "id": 8,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "Y"
+    ],
+    "desc_ar": "إعادة",
+    "desc_en": "Redo",
+    "desc_fr": "Rétablir"
+  },
+  {
+    "id": 9,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "F4"
+    ],
+    "desc_ar": "إعادة آخر إجراء",
+    "desc_en": "Repeat last action",
+    "desc_fr": "Répéter la dernière action"
+  },
+  {
+    "id": 10,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "X"
+    ],
+    "desc_ar": "قص",
+    "desc_en": "Cut",
+    "desc_fr": "Couper"
+  },
+  {
+    "id": 11,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "C"
+    ],
+    "desc_ar": "نسخ",
+    "desc_en": "Copy",
+    "desc_fr": "Copier"
+  },
+  {
+    "id": 12,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "V"
+    ],
+    "desc_ar": "لصق",
+    "desc_en": "Paste",
+    "desc_fr": "Coller"
+  },
+  {
+    "id": 13,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "V"
+    ],
+    "desc_ar": "لصق خاص",
+    "desc_en": "Paste Special",
+    "desc_fr": "Collage spécial"
+  },
+  {
+    "id": 14,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "A"
+    ],
+    "desc_ar": "تحديد الكل",
+    "desc_en": "Select All",
+    "desc_fr": "Sélectionner tout"
+  },
+  {
+    "id": 15,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "F"
+    ],
+    "desc_ar": "بحث",
+    "desc_en": "Find",
+    "desc_fr": "Rechercher"
+  },
+  {
+    "id": 16,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "H"
+    ],
+    "desc_ar": "استبدال",
+    "desc_en": "Replace",
+    "desc_fr": "Remplacer"
+  },
+  {
+    "id": 17,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Ctrl",
+      "G"
+    ],
+    "desc_ar": "الانتقال إلى",
+    "desc_en": "Go To",
+    "desc_fr": "Atteindre"
+  },
+  {
+    "id": 18,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "F1"
+    ],
+    "desc_ar": "المساعدة",
+    "desc_en": "Help",
+    "desc_fr": "Aide"
+  },
+  {
+    "id": 19,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "Alt",
+      "F4"
+    ],
+    "desc_ar": "إغلاق البرنامج",
+    "desc_en": "Close the program",
+    "desc_fr": "Fermer le programme"
+  },
+  {
+    "id": 20,
+    "app": "common",
+    "category": "file",
+    "keys": [
+      "F12"
+    ],
+    "desc_ar": "حفظ باسم",
+    "desc_en": "Save As",
+    "desc_fr": "Enregistrer sous"
+  },
+  {
+    "id": 21,
+    "app": "common",
+    "category": "navigation",
+    "keys": [
+      "Ctrl",
+      "Home"
+    ],
+    "desc_ar": "الانتقال لأول المستند",
+    "desc_en": "Go to beginning of document",
+    "desc_fr": "Aller au début du document"
+  },
+  {
+    "id": 22,
+    "app": "common",
+    "category": "navigation",
+    "keys": [
+      "Ctrl",
+      "End"
+    ],
+    "desc_ar": "الانتقال لآخر المستند",
+    "desc_en": "Go to end of document",
+    "desc_fr": "Aller à la fin du document"
+  },
+  {
+    "id": 23,
+    "app": "common",
+    "category": "navigation",
+    "keys": [
+      "Shift",
+      "← → ↑ ↓"
+    ],
+    "desc_ar": "تحديد بالحروف / الخلايا",
+    "desc_en": "Select with arrow keys",
+    "desc_fr": "Sélectionner avec les flèches"
+  },
+  {
+    "id": 24,
+    "app": "common",
+    "category": "navigation",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "← →"
+    ],
+    "desc_ar": "تحديد حتى نهاية الكلمة / المنطقة",
+    "desc_en": "Select to end of word / region",
+    "desc_fr": "Sélectionner jusqu'à la fin du mot / zone"
+  },
+  {
+    "id": 25,
+    "app": "common",
+    "category": "navigation",
+    "keys": [
+      "Alt",
+      "Tab"
+    ],
+    "desc_ar": "التنقل بين النوافذ",
+    "desc_en": "Switch between windows",
+    "desc_fr": "Basculer entre les fenêtres"
+  },
+  {
+    "id": 26,
+    "app": "common",
+    "category": "navigation",
+    "keys": [
+      "Ctrl",
+      "Tab"
+    ],
+    "desc_ar": "التنقل بين الملفات المفتوحة",
+    "desc_en": "Switch between open files",
+    "desc_fr": "Basculer entre les fichiers ouverts"
+  },
+  {
+    "id": 27,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "B"
+    ],
+    "desc_ar": "عريض Bold",
+    "desc_en": "Bold",
+    "desc_fr": "Gras"
+  },
+  {
+    "id": 28,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "I"
+    ],
+    "desc_ar": "مائل Italic",
+    "desc_en": "Italic",
+    "desc_fr": "Italique"
+  },
+  {
+    "id": 29,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "U"
+    ],
+    "desc_ar": "تسطير Underline",
+    "desc_en": "Underline",
+    "desc_fr": "Souligné"
+  },
+  {
+    "id": 30,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "K"
+    ],
+    "desc_ar": "إدراج رابط تشعبي",
+    "desc_en": "Insert hyperlink",
+    "desc_fr": "Insérer un lien hypertexte"
+  },
+  {
+    "id": 31,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      ">"
+    ],
+    "desc_ar": "تكبير الخط",
+    "desc_en": "Increase font size",
+    "desc_fr": "Augmenter la taille de police"
+  },
+  {
+    "id": 32,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "<"
+    ],
+    "desc_ar": "تصغير الخط",
+    "desc_en": "Decrease font size",
+    "desc_fr": "Réduire la taille de police"
+  },
+  {
+    "id": 33,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "F"
+    ],
+    "desc_ar": "تغيير نوع الخط",
+    "desc_en": "Change font type",
+    "desc_fr": "Changer la police"
+  },
+  {
+    "id": 34,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "E"
+    ],
+    "desc_ar": "توسيط",
+    "desc_en": "Center alignment",
+    "desc_fr": "Centrer"
+  },
+  {
+    "id": 35,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "J"
+    ],
+    "desc_ar": "ضبط",
+    "desc_en": "Justify alignment",
+    "desc_fr": "Justifier"
+  },
+  {
+    "id": 36,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "L"
+    ],
+    "desc_ar": "محاذاة لليسار",
+    "desc_en": "Align left",
+    "desc_fr": "Aligner à gauche"
+  },
+  {
+    "id": 37,
+    "app": "common",
+    "category": "formatting",
+    "keys": [
+      "Ctrl",
+      "R"
+    ],
+    "desc_ar": "محاذاة لليمين",
+    "desc_en": "Align right",
+    "desc_fr": "Aligner à droite"
+  },
+  {
+    "id": 38,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "D"
+    ],
+    "desc_ar": "خصائص الخط",
+    "desc_en": "Font properties",
+    "desc_fr": "Propriétés de police"
+  },
+  {
+    "id": 39,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "D"
+    ],
+    "desc_ar": "تسطير مزدوج",
+    "desc_en": "Double underline",
+    "desc_fr": "Double soulignement"
+  },
+  {
+    "id": 40,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "W"
+    ],
+    "desc_ar": "تسطير للكلمات فقط",
+    "desc_en": "Underline words only",
+    "desc_fr": "Souligner les mots uniquement"
+  },
+  {
+    "id": 41,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "A"
+    ],
+    "desc_ar": "كل الأحرف كبيرة",
+    "desc_en": "All caps",
+    "desc_fr": "Tout en majuscules"
+  },
+  {
+    "id": 42,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "K"
+    ],
+    "desc_ar": "أحرف صغيرة كبيرة (Small Caps)",
+    "desc_en": "Small caps",
+    "desc_fr": "Petites majuscules"
+  },
+  {
+    "id": 43,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "="
+    ],
+    "desc_ar": "رمز سفلي Subscript",
+    "desc_en": "Subscript",
+    "desc_fr": "Indice"
+  },
+  {
+    "id": 44,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "="
+    ],
+    "desc_ar": "رمز علوي Superscript",
+    "desc_en": "Superscript",
+    "desc_fr": "Exposant"
+  },
+  {
+    "id": 45,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "Q"
+    ],
+    "desc_ar": "تغيير إلى خط Symbol",
+    "desc_en": "Change to Symbol font",
+    "desc_fr": "Passer à la police Symbol"
+  },
+  {
+    "id": 46,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "1"
+    ],
+    "desc_ar": "تباعد أسطر مفرد",
+    "desc_en": "Single line spacing",
+    "desc_fr": "Interligne simple"
+  },
+  {
+    "id": 47,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "2"
+    ],
+    "desc_ar": "تباعد أسطر مزدوج",
+    "desc_en": "Double line spacing",
+    "desc_fr": "Interligne double"
+  },
+  {
+    "id": 48,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "5"
+    ],
+    "desc_ar": "تباعد 1.5",
+    "desc_en": "1.5 line spacing",
+    "desc_fr": "Interligne 1,5"
+  },
+  {
+    "id": 49,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "0"
+    ],
+    "desc_ar": "إضافة مسافة قبل الفقرة",
+    "desc_en": "Add space before paragraph",
+    "desc_fr": "Ajouter un espace avant le paragraphe"
+  },
+  {
+    "id": 50,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "M"
+    ],
+    "desc_ar": "إزاحة الفقرة لليمين",
+    "desc_en": "Indent paragraph right",
+    "desc_fr": "Retrait du paragraphe à droite"
+  },
+  {
+    "id": 51,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "M"
+    ],
+    "desc_ar": "إزاحة الفقرة لليسار",
+    "desc_en": "Indent paragraph left",
+    "desc_fr": "Retrait du paragraphe à gauche"
+  },
+  {
+    "id": 52,
+    "app": "word",
+    "category": "text",
+    "keys": [
+      "Ctrl",
+      "Q"
+    ],
+    "desc_ar": "إزالة تنسيق الفقرة",
+    "desc_en": "Remove paragraph formatting",
+    "desc_fr": "Supprimer la mise en forme du paragraphe"
+  },
+  {
+    "id": 53,
+    "app": "word",
+    "category": "paragraphs",
+    "keys": [
+      "Ctrl",
+      "Alt",
+      "1"
+    ],
+    "desc_ar": "نمط عنوان 1",
+    "desc_en": "Heading 1 style",
+    "desc_fr": "Style Titre 1"
+  },
+  {
+    "id": 54,
+    "app": "word",
+    "category": "paragraphs",
+    "keys": [
+      "Ctrl",
+      "Alt",
+      "2"
+    ],
+    "desc_ar": "نمط عنوان 2",
+    "desc_en": "Heading 2 style",
+    "desc_fr": "Style Titre 2"
+  },
+  {
+    "id": 55,
+    "app": "word",
+    "category": "paragraphs",
+    "keys": [
+      "Ctrl",
+      "Alt",
+      "3"
+    ],
+    "desc_ar": "نمط عنوان 3",
+    "desc_en": "Heading 3 style",
+    "desc_fr": "Style Titre 3"
+  },
+  {
+    "id": 56,
+    "app": "word",
+    "category": "paragraphs",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "N"
+    ],
+    "desc_ar": "نمط عادي Normal",
+    "desc_en": "Normal style",
+    "desc_fr": "Style Normal"
+  },
+  {
+    "id": 57,
+    "app": "word",
+    "category": "paragraphs",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "S"
+    ],
+    "desc_ar": "تطبيق نمط",
+    "desc_en": "Apply a style",
+    "desc_fr": "Appliquer un style"
+  },
+  {
+    "id": 58,
+    "app": "word",
+    "category": "paragraphs",
+    "keys": [
+      "Ctrl",
+      "Enter"
+    ],
+    "desc_ar": "إدراج فاصل صفحة Page Break",
+    "desc_en": "Insert page break",
+    "desc_fr": "Insérer un saut de page"
+  },
+  {
+    "id": 59,
+    "app": "word",
+    "category": "paragraphs",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "Enter"
+    ],
+    "desc_ar": "فاصل عمود Column Break",
+    "desc_en": "Insert column break",
+    "desc_fr": "Insérer un saut de colonne"
+  },
+  {
+    "id": 60,
+    "app": "word",
+    "category": "paragraphs",
+    "keys": [
+      "Alt",
+      "Ctrl",
+      "Page Down"
+    ],
+    "desc_ar": "فاصل قسم Section Break",
+    "desc_en": "Insert section break",
+    "desc_fr": "Insérer un saut de section"
+  },
+  {
+    "id": 61,
+    "app": "word",
+    "category": "tables",
+    "keys": [
+      "Alt",
+      "Ctrl",
+      "T"
+    ],
+    "desc_ar": "إدراج جدول",
+    "desc_en": "Insert table",
+    "desc_fr": "Insérer un tableau"
+  },
+  {
+    "id": 62,
+    "app": "word",
+    "category": "tables",
+    "keys": [
+      "Alt",
+      "Ctrl",
+      "I"
+    ],
+    "desc_ar": "إدراج صورة",
+    "desc_en": "Insert picture",
+    "desc_fr": "Insérer une image"
+  },
+  {
+    "id": 63,
+    "app": "word",
+    "category": "tables",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "F9"
+    ],
+    "desc_ar": "فصل الارتباطات",
+    "desc_en": "Unlink fields",
+    "desc_fr": "Dissocier les champs"
+  },
+  {
+    "id": 64,
+    "app": "word",
+    "category": "tables",
+    "keys": [
+      "Ctrl",
+      "F9"
+    ],
+    "desc_ar": "إدراج حقل Field",
+    "desc_en": "Insert field",
+    "desc_fr": "Insérer un champ"
+  },
+  {
+    "id": 65,
+    "app": "word",
+    "category": "tables",
+    "keys": [
+      "Shift",
+      "F3"
+    ],
+    "desc_ar": "تبديل حالة الأحرف",
+    "desc_en": "Toggle letter case",
+    "desc_fr": "Changer la casse"
+  },
+  {
+    "id": 66,
+    "app": "word",
+    "category": "tables",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "C"
+    ],
+    "desc_ar": "نسخ التنسيق",
+    "desc_en": "Copy formatting (Format Painter)",
+    "desc_fr": "Copier la mise en forme"
+  },
+  {
+    "id": 67,
+    "app": "word",
+    "category": "tables",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "V"
+    ],
+    "desc_ar": "لصق التنسيق",
+    "desc_en": "Paste formatting",
+    "desc_fr": "Coller la mise en forme"
+  },
+  {
+    "id": 68,
+    "app": "word",
+    "category": "tables",
+    "keys": [
+      "F5"
+    ],
+    "desc_ar": "الانتقال إلى / بحث متقدم",
+    "desc_en": "Go To / Advanced Find",
+    "desc_fr": "Atteindre / Recherche avancée"
+  },
+  {
+    "id": 69,
+    "app": "word",
+    "category": "tables",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "8"
+    ],
+    "desc_ar": "إظهار / إخفاء علامات الفقرات",
+    "desc_en": "Show / hide paragraph marks",
+    "desc_fr": "Afficher / masquer les marques de paragraphe"
+  },
+  {
+    "id": 70,
+    "app": "word",
+    "category": "review",
+    "keys": [
+      "F7"
+    ],
+    "desc_ar": "تدقيق إملائي ونحوي",
+    "desc_en": "Spelling & grammar check",
+    "desc_fr": "Vérification orthographique et grammaticale"
+  },
+  {
+    "id": 71,
+    "app": "word",
+    "category": "review",
+    "keys": [
+      "Shift",
+      "F7"
+    ],
+    "desc_ar": "قاموس المرادفات",
+    "desc_en": "Thesaurus",
+    "desc_fr": "Dictionnaire des synonymes"
+  },
+  {
+    "id": 72,
+    "app": "word",
+    "category": "review",
+    "keys": [
+      "Alt",
+      "Ctrl",
+      "M"
+    ],
+    "desc_ar": "إدراج تعليق",
+    "desc_en": "Insert comment",
+    "desc_fr": "Insérer un commentaire"
+  },
+  {
+    "id": 73,
+    "app": "word",
+    "category": "review",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "E"
+    ],
+    "desc_ar": "تتبع التغييرات تشغيل / إيقاف",
+    "desc_en": "Track Changes on / off",
+    "desc_fr": "Suivi des modifications on / off"
+  },
+  {
+    "id": 74,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "F2"
+    ],
+    "desc_ar": "تحرير الخلية النشطة",
+    "desc_en": "Edit active cell",
+    "desc_fr": "Modifier la cellule active"
+  },
+  {
+    "id": 75,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Enter"
+    ],
+    "desc_ar": "تأكيد والانتقال للأسفل",
+    "desc_en": "Confirm and move down",
+    "desc_fr": "Valider et aller vers le bas"
+  },
+  {
+    "id": 76,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Tab"
+    ],
+    "desc_ar": "تأكيد والانتقال لليمين",
+    "desc_en": "Confirm and move right",
+    "desc_fr": "Valider et aller vers la droite"
+  },
+  {
+    "id": 77,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Esc"
+    ],
+    "desc_ar": "إلغاء الإدخال",
+    "desc_en": "Cancel entry",
+    "desc_fr": "Annuler la saisie"
+  },
+  {
+    "id": 78,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Delete"
+    ],
+    "desc_ar": "مسح محتوى الخلية",
+    "desc_en": "Clear cell contents",
+    "desc_fr": "Effacer le contenu de la cellule"
+  },
+  {
+    "id": 79,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "\""
+    ],
+    "desc_ar": "نسخ القيمة من الخلية العليا",
+    "desc_en": "Copy value from cell above",
+    "desc_fr": "Copier la valeur de la cellule du dessus"
+  },
+  {
+    "id": 80,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Ctrl",
+      "'"
+    ],
+    "desc_ar": "نسخ الصيغة من الخلية العليا",
+    "desc_en": "Copy formula from cell above",
+    "desc_fr": "Copier la formule de la cellule du dessus"
+  },
+  {
+    "id": 81,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Ctrl",
+      "D"
+    ],
+    "desc_ar": "تعبئة للأسفل",
+    "desc_en": "Fill down",
+    "desc_fr": "Remplir vers le bas"
+  },
+  {
+    "id": 82,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Ctrl",
+      "R"
+    ],
+    "desc_ar": "تعبئة لليمين",
+    "desc_en": "Fill right",
+    "desc_fr": "Remplir vers la droite"
+  },
+  {
+    "id": 83,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Ctrl",
+      "← → ↑ ↓"
+    ],
+    "desc_ar": "الانتقال لآخر خلية بمنطقة البيانات",
+    "desc_en": "Go to edge of data region",
+    "desc_fr": "Aller au bord de la zone de données"
+  },
+  {
+    "id": 84,
+    "app": "excel",
+    "category": "cells",
+    "keys": [
+      "Ctrl",
+      "Home"
+    ],
+    "desc_ar": "العودة للخلية A1",
+    "desc_en": "Go to cell A1",
+    "desc_fr": "Aller à la cellule A1"
+  },
+  {
+    "id": 85,
+    "app": "excel",
+    "category": "formulas",
+    "keys": [
+      "Alt",
+      "="
+    ],
+    "desc_ar": "جمع تلقائي AutoSum",
+    "desc_en": "AutoSum",
+    "desc_fr": "Somme automatique"
+  },
+  {
+    "id": 86,
+    "app": "excel",
+    "category": "formulas",
+    "keys": [
+      "Ctrl",
+      "`"
+    ],
+    "desc_ar": "إظهار الصيغ بدل النتائج",
+    "desc_en": "Show formulas instead of results",
+    "desc_fr": "Afficher les formules au lieu des résultats"
+  },
+  {
+    "id": 87,
+    "app": "excel",
+    "category": "formulas",
+    "keys": [
+      "Shift",
+      "F3"
+    ],
+    "desc_ar": "فتح معالج الدوال",
+    "desc_en": "Open Function Wizard",
+    "desc_fr": "Ouvrir l'assistant fonction"
+  },
+  {
+    "id": 88,
+    "app": "excel",
+    "category": "formulas",
+    "keys": [
+      "F4"
+    ],
+    "desc_ar": "تثبيت المرجع المطلق / النسبي",
+    "desc_en": "Toggle absolute / relative reference",
+    "desc_fr": "Basculer référence absolue / relative"
+  },
+  {
+    "id": 89,
+    "app": "excel",
+    "category": "formulas",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "Enter"
+    ],
+    "desc_ar": "إدخال صيغة مصفوفة",
+    "desc_en": "Enter array formula",
+    "desc_fr": "Entrer une formule matricielle"
+  },
+  {
+    "id": 90,
+    "app": "excel",
+    "category": "formulas",
+    "keys": [
+      "Ctrl",
+      "["
+    ],
+    "desc_ar": "تحديد الخلايا السابقة للصيغة",
+    "desc_en": "Select precedent cells",
+    "desc_fr": "Sélectionner les cellules précédentes"
+  },
+  {
+    "id": 91,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "1"
+    ],
+    "desc_ar": "تنسيق أرقام بفاصلة عشرية",
+    "desc_en": "Number format with decimals",
+    "desc_fr": "Format nombre avec décimales"
+  },
+  {
+    "id": 92,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "3"
+    ],
+    "desc_ar": "تنسيق تاريخ",
+    "desc_en": "Date format",
+    "desc_fr": "Format date"
+  },
+  {
+    "id": 93,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "4"
+    ],
+    "desc_ar": "تنسيق عملة",
+    "desc_en": "Currency format",
+    "desc_fr": "Format monétaire"
+  },
+  {
+    "id": 94,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "5"
+    ],
+    "desc_ar": "تنسيق نسبة مئوية",
+    "desc_en": "Percentage format",
+    "desc_fr": "Format pourcentage"
+  },
+  {
+    "id": 95,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "7"
+    ],
+    "desc_ar": "حدود خارجية",
+    "desc_en": "Outside borders",
+    "desc_fr": "Bordures extérieures"
+  },
+  {
+    "id": 96,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "-"
+    ],
+    "desc_ar": "إزالة الحدود",
+    "desc_en": "Remove borders",
+    "desc_fr": "Supprimer les bordures"
+  },
+  {
+    "id": 97,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "1"
+    ],
+    "desc_ar": "تنسيق الخلايا",
+    "desc_en": "Format Cells",
+    "desc_fr": "Format de cellule"
+  },
+  {
+    "id": 98,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "~"
+    ],
+    "desc_ar": "تنسيق عام",
+    "desc_en": "General format",
+    "desc_fr": "Format général"
+  },
+  {
+    "id": 99,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "@"
+    ],
+    "desc_ar": "تنسيق وقت",
+    "desc_en": "Time format",
+    "desc_fr": "Format heure"
+  },
+  {
+    "id": 100,
+    "app": "excel",
+    "category": "numbers",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "!"
+    ],
+    "desc_ar": "تنسيق رقم مع فاصلة آلاف",
+    "desc_en": "Number with thousands separator",
+    "desc_fr": "Nombre avec séparateur de milliers"
+  },
+  {
+    "id": 101,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "A"
+    ],
+    "desc_ar": "تحديد المنطقة ثم كامل الورقة",
+    "desc_en": "Select region then whole sheet",
+    "desc_fr": "Sélectionner la zone puis toute la feuille"
+  },
+  {
+    "id": 102,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "Space"
+    ],
+    "desc_ar": "تحديد العمود بأكمله",
+    "desc_en": "Select entire column",
+    "desc_fr": "Sélectionner toute la colonne"
+  },
+  {
+    "id": 103,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Shift",
+      "Space"
+    ],
+    "desc_ar": "تحديد الصف بأكمله",
+    "desc_en": "Select entire row",
+    "desc_fr": "Sélectionner toute la ligne"
+  },
+  {
+    "id": 104,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "← → ↑ ↓"
+    ],
+    "desc_ar": "تحديد منطقة البيانات",
+    "desc_en": "Select data region",
+    "desc_fr": "Sélectionner la zone de données"
+  },
+  {
+    "id": 105,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "-"
+    ],
+    "desc_ar": "حذف خلايا",
+    "desc_en": "Delete cells",
+    "desc_fr": "Supprimer des cellules"
+  },
+  {
+    "id": 106,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "+"
+    ],
+    "desc_ar": "إدراج خلايا",
+    "desc_en": "Insert cells",
+    "desc_fr": "Insérer des cellules"
+  },
+  {
+    "id": 107,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "L"
+    ],
+    "desc_ar": "تصفية تلقائية AutoFilter",
+    "desc_en": "AutoFilter",
+    "desc_fr": "Filtre automatique"
+  },
+  {
+    "id": 108,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Alt",
+      "↓"
+    ],
+    "desc_ar": "فتح قائمة التصفية",
+    "desc_en": "Open filter menu",
+    "desc_fr": "Ouvrir le menu de filtre"
+  },
+  {
+    "id": 109,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "T"
+    ],
+    "desc_ar": "إنشاء جدول Table",
+    "desc_en": "Create Table",
+    "desc_fr": "Créer un tableau"
+  },
+  {
+    "id": 110,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Shift",
+      "F11"
+    ],
+    "desc_ar": "إدراج ورقة عمل جديدة",
+    "desc_en": "Insert new worksheet",
+    "desc_fr": "Insérer une nouvelle feuille"
+  },
+  {
+    "id": 111,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Alt",
+      "Shift",
+      "F1"
+    ],
+    "desc_ar": "إدراج ورقة عمل جديدة",
+    "desc_en": "Insert new worksheet",
+    "desc_fr": "Insérer une nouvelle feuille"
+  },
+  {
+    "id": 112,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "Page Down"
+    ],
+    "desc_ar": "الورقة التالية",
+    "desc_en": "Next sheet",
+    "desc_fr": "Feuille suivante"
+  },
+  {
+    "id": 113,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "Page Up"
+    ],
+    "desc_ar": "الورقة السابقة",
+    "desc_en": "Previous sheet",
+    "desc_fr": "Feuille précédente"
+  },
+  {
+    "id": 114,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "9"
+    ],
+    "desc_ar": "إخفاء صفوف",
+    "desc_en": "Hide rows",
+    "desc_fr": "Masquer les lignes"
+  },
+  {
+    "id": 115,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "0"
+    ],
+    "desc_ar": "إخفاء أعمدة",
+    "desc_en": "Hide columns",
+    "desc_fr": "Masquer les colonnes"
+  },
+  {
+    "id": 116,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "F3"
+    ],
+    "desc_ar": "مدير الأسماء Name Manager",
+    "desc_en": "Name Manager",
+    "desc_fr": "Gestionnaire de noms"
+  },
+  {
+    "id": 117,
+    "app": "excel",
+    "category": "tables_select",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "F3"
+    ],
+    "desc_ar": "إنشاء أسماء من التحديد",
+    "desc_en": "Create names from selection",
+    "desc_fr": "Créer des noms depuis la sélection"
+  },
+  {
+    "id": 118,
+    "app": "excel",
+    "category": "macros",
+    "keys": [
+      "Alt",
+      "F8"
+    ],
+    "desc_ar": "تشغيل ماكرو",
+    "desc_en": "Run macro",
+    "desc_fr": "Exécuter une macro"
+  },
+  {
+    "id": 119,
+    "app": "excel",
+    "category": "macros",
+    "keys": [
+      "Alt",
+      "F11"
+    ],
+    "desc_ar": "محرر VBA",
+    "desc_en": "VBA editor",
+    "desc_fr": "Éditeur VBA"
+  },
+  {
+    "id": 120,
+    "app": "excel",
+    "category": "macros",
+    "keys": [
+      "Ctrl",
+      "F2"
+    ],
+    "desc_ar": "معاينة الطباعة",
+    "desc_en": "Print preview",
+    "desc_fr": "Aperçu avant impression"
+  },
+  {
+    "id": 121,
+    "app": "excel",
+    "category": "macros",
+    "keys": [
+      "F9"
+    ],
+    "desc_ar": "إعادة حساب المصنف",
+    "desc_en": "Recalculate workbook",
+    "desc_fr": "Recalculer le classeur"
+  },
+  {
+    "id": 122,
+    "app": "excel",
+    "category": "macros",
+    "keys": [
+      "Shift",
+      "F9"
+    ],
+    "desc_ar": "إعادة حساب الورقة",
+    "desc_en": "Recalculate sheet",
+    "desc_fr": "Recalculer la feuille"
+  },
+  {
+    "id": 123,
+    "app": "powerpoint",
+    "category": "slides",
+    "keys": [
+      "Ctrl",
+      "M"
+    ],
+    "desc_ar": "شريحة جديدة",
+    "desc_en": "New slide",
+    "desc_fr": "Nouvelle diapositive"
+  },
+  {
+    "id": 124,
+    "app": "powerpoint",
+    "category": "slides",
+    "keys": [
+      "Ctrl",
+      "D"
+    ],
+    "desc_ar": "تكرار الشريحة",
+    "desc_en": "Duplicate slide",
+    "desc_fr": "Dupliquer la diapositive"
+  },
+  {
+    "id": 125,
+    "app": "powerpoint",
+    "category": "slides",
+    "keys": [
+      "Delete"
+    ],
+    "desc_ar": "حذف الشريحة المحددة",
+    "desc_en": "Delete selected slide",
+    "desc_fr": "Supprimer la diapositive sélectionnée"
+  },
+  {
+    "id": 126,
+    "app": "powerpoint",
+    "category": "slides",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "D"
+    ],
+    "desc_ar": "تكرار الكائن المحدد",
+    "desc_en": "Duplicate selected object",
+    "desc_fr": "Dupliquer l'objet sélectionné"
+  },
+  {
+    "id": 127,
+    "app": "powerpoint",
+    "category": "slides",
+    "keys": [
+      "Ctrl",
+      "G"
+    ],
+    "desc_ar": "تجميع العناصر",
+    "desc_en": "Group objects",
+    "desc_fr": "Grouper les objets"
+  },
+  {
+    "id": 128,
+    "app": "powerpoint",
+    "category": "slides",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "G"
+    ],
+    "desc_ar": "فك التجميع",
+    "desc_en": "Ungroup objects",
+    "desc_fr": "Dissocier les objets"
+  },
+  {
+    "id": 129,
+    "app": "powerpoint",
+    "category": "slides",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      ">"
+    ],
+    "desc_ar": "تكبير الخط",
+    "desc_en": "Increase font size",
+    "desc_fr": "Augmenter la taille de police"
+  },
+  {
+    "id": 130,
+    "app": "powerpoint",
+    "category": "slides",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "<"
+    ],
+    "desc_ar": "تصغير الخط",
+    "desc_en": "Decrease font size",
+    "desc_fr": "Réduire la taille de police"
+  },
+  {
+    "id": 131,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "F5"
+    ],
+    "desc_ar": "بدء العرض من البداية",
+    "desc_en": "Start slideshow from beginning",
+    "desc_fr": "Démarrer le diaporama depuis le début"
+  },
+  {
+    "id": 132,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "Shift",
+      "F5"
+    ],
+    "desc_ar": "بدء العرض من الشريحة الحالية",
+    "desc_en": "Start slideshow from current slide",
+    "desc_fr": "Démarrer depuis la diapositive actuelle"
+  },
+  {
+    "id": 133,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "Esc"
+    ],
+    "desc_ar": "إنهاء العرض",
+    "desc_en": "End slideshow",
+    "desc_fr": "Terminer le diaporama"
+  },
+  {
+    "id": 134,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "N"
+    ],
+    "desc_ar": "الشريحة التالية (N / Space / →)",
+    "desc_en": "Next slide (N / Space / →)",
+    "desc_fr": "Diapositive suivante (N / Espace / →)"
+  },
+  {
+    "id": 135,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "P"
+    ],
+    "desc_ar": "الشريحة السابقة (P / ←)",
+    "desc_en": "Previous slide (P / ←)",
+    "desc_fr": "Diapositive précédente (P / ←)"
+  },
+  {
+    "id": 136,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "B"
+    ],
+    "desc_ar": "شاشة سوداء أثناء العرض",
+    "desc_en": "Black screen during show",
+    "desc_fr": "Écran noir pendant le diaporama"
+  },
+  {
+    "id": 137,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "W"
+    ],
+    "desc_ar": "شاشة بيضاء أثناء العرض",
+    "desc_en": "White screen during show",
+    "desc_fr": "Écran blanc pendant le diaporama"
+  },
+  {
+    "id": 138,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "Home"
+    ],
+    "desc_ar": "الشريحة الأولى",
+    "desc_en": "First slide",
+    "desc_fr": "Première diapositive"
+  },
+  {
+    "id": 139,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "End"
+    ],
+    "desc_ar": "الشريحة الأخيرة",
+    "desc_en": "Last slide",
+    "desc_fr": "Dernière diapositive"
+  },
+  {
+    "id": 140,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "1-9",
+      "Enter"
+    ],
+    "desc_ar": "الانتقال لشريحة محددة (رقم + Enter)",
+    "desc_en": "Go to slide number + Enter",
+    "desc_fr": "Aller à la diapositive n° + Entrée"
+  },
+  {
+    "id": 141,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "Ctrl",
+      "P"
+    ],
+    "desc_ar": "أداة القلم أثناء العرض",
+    "desc_en": "Pen tool during show",
+    "desc_fr": "Outil stylo pendant le diaporama"
+  },
+  {
+    "id": 142,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "Ctrl",
+      "H"
+    ],
+    "desc_ar": "إخفاء مؤشر الفأرة",
+    "desc_en": "Hide pointer",
+    "desc_fr": "Masquer le pointeur"
+  },
+  {
+    "id": 143,
+    "app": "powerpoint",
+    "category": "presentation",
+    "keys": [
+      "Shift",
+      "F10"
+    ],
+    "desc_ar": "قائمة يمين أثناء العرض",
+    "desc_en": "Right-click menu during show",
+    "desc_fr": "Menu contextuel pendant le diaporama"
+  },
+  {
+    "id": 144,
+    "app": "powerpoint",
+    "category": "editing",
+    "keys": [
+      "Ctrl",
+      "T"
+    ],
+    "desc_ar": "عرض إطار النص",
+    "desc_en": "Text box view",
+    "desc_fr": "Afficher la zone de texte"
+  },
+  {
+    "id": 145,
+    "app": "powerpoint",
+    "category": "editing",
+    "keys": [
+      "Alt",
+      "N",
+      "P"
+    ],
+    "desc_ar": "إدراج صورة",
+    "desc_en": "Insert picture",
+    "desc_fr": "Insérer une image"
+  },
+  {
+    "id": 146,
+    "app": "powerpoint",
+    "category": "editing",
+    "keys": [
+      "Alt",
+      "N",
+      "X"
+    ],
+    "desc_ar": "إدراج نص فني WordArt",
+    "desc_en": "Insert WordArt",
+    "desc_fr": "Insérer un WordArt"
+  },
+  {
+    "id": 147,
+    "app": "powerpoint",
+    "category": "editing",
+    "keys": [
+      "Alt",
+      "N",
+      "I"
+    ],
+    "desc_ar": "إدراج رسم SmartArt",
+    "desc_en": "Insert SmartArt",
+    "desc_fr": "Insérer un SmartArt"
+  },
+  {
+    "id": 148,
+    "app": "powerpoint",
+    "category": "editing",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "V"
+    ],
+    "desc_ar": "لصق خاص",
+    "desc_en": "Paste Special",
+    "desc_fr": "Collage spécial"
+  },
+  {
+    "id": 149,
+    "app": "powerpoint",
+    "category": "editing",
+    "keys": [
+      "Ctrl",
+      "Alt",
+      "V"
+    ],
+    "desc_ar": "لصق خاص (خيارات)",
+    "desc_en": "Paste Special (options)",
+    "desc_fr": "Collage spécial (options)"
+  },
+  {
+    "id": 150,
+    "app": "powerpoint",
+    "category": "editing",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "J"
+    ],
+    "desc_ar": "إرسال للخلف",
+    "desc_en": "Send backward",
+    "desc_fr": "Envoyer vers l'arrière"
+  },
+  {
+    "id": 151,
+    "app": "powerpoint",
+    "category": "editing",
+    "keys": [
+      "Ctrl",
+      "Shift",
+      "F"
+    ],
+    "desc_ar": "إحضار للأمام",
+    "desc_en": "Bring forward",
+    "desc_fr": "Amener vers l'avant"
+  },
+  {
+    "id": 152,
+    "app": "powerpoint",
+    "category": "editing",
+    "keys": [
+      "Alt",
+      "F5"
+    ],
+    "desc_ar": "عرض مقدم العرض Presenter View",
+    "desc_en": "Presenter View",
+    "desc_fr": "Mode présentateur"
+  }
+]

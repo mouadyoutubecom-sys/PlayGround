@@ -1,0 +1,100 @@
+:root{
+  --bg1:#eef2ff; --bg2:#fdf4ff; --bg3:#ecfeff;
+  --glass:rgba(255,255,255,.72); --glass-border:rgba(255,255,255,.6);
+  --text:#0f172a; --muted:#64748b; --card-shadow:0 8px 32px rgba(15,23,42,.10);
+  --word:#2563eb; --excel:#16a34a; --ppt:#ea580c;
+  --accent:#7c3aed; --radius:18px;
+}
+[data-theme="dark"]{
+  --bg1:#0b1023; --bg2:#131130; --bg3:#082026;
+  --glass:rgba(20,26,48,.72); --glass-border:rgba(255,255,255,.12);
+  --text:#eef2ff; --muted:#94a3b8; --card-shadow:0 8px 32px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; font-family:"Segoe UI",Tahoma,Arial,system-ui,sans-serif;
+  color:var(--text); min-height:100vh;
+  background:linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
+  background-attachment:fixed; transition:background .3s,color .3s;
+}
+a{color:inherit}
+.topbar{
+  position:sticky;top:0;z-index:50;
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  background:var(--glass);border-bottom:1px solid var(--glass-border);
+  display:flex;align-items:center;gap:12px;padding:12px 18px;flex-wrap:wrap;
+}
+.logo{font-weight:800;font-size:1.25rem;display:flex;align-items:center;gap:10px}
+.logo-badge{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;
+  background:linear-gradient(135deg,#2563eb,#16a34a,#ea580c);color:#fff;font-weight:900}
+.controls{margin-inline-start:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.btn,.seg button,.lang-btn{
+  border:1px solid var(--glass-border);background:var(--glass);
+  color:var(--text);padding:8px 14px;border-radius:999px;cursor:pointer;
+  backdrop-filter:blur(12px);font-weight:600;transition:.2s;
+}
+.btn:hover,.lang-btn:hover,.seg button:hover{transform:translateY(-1px);box-shadow:var(--card-shadow)}
+.btn.active,.lang-btn.active,.seg button.active{background:var(--text);color:#fff}
+.btn.primary{background:linear-gradient(135deg,#7c3aed,#2563eb);color:#fff;border:none}
+.search-wrap{flex:1 1 220px;min-width:200px;max-width:420px;position:relative}
+.search-wrap input{
+  width:100%;padding:10px 14px 10px 40px;border-radius:999px;border:1px solid var(--glass-border);
+  background:var(--glass);color:var(--text);outline:none;
+}
+[dir="rtl"] .search-wrap input{padding:10px 40px 10px 14px}
+.search-icon{position:absolute;inset-inline-start:12px;top:50%;transform:translateY(-50%);opacity:.6}
+main{max-width:1200px;margin:0 auto;padding:24px 16px 60px}
+.hero{text-align:center;padding:28px 12px}
+.hero h1{font-size:clamp(1.6rem,4vw,2.6rem);margin:.2em 0}
+.hero p{color:var(--muted);margin:0 auto;max-width:720px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:20px 0}
+.stat{background:var(--glass);border:1px solid var(--glass-border);border-radius:var(--radius);
+  padding:14px;text-align:center;box-shadow:var(--card-shadow);backdrop-filter:blur(14px)}
+.stat b{font-size:1.5rem;display:block}
+.app-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:18px 0}
+.app-card{border-radius:22px;padding:22px;color:#fff;cursor:pointer;border:none;text-align:start;
+  box-shadow:var(--card-shadow);transition:.25s;position:relative;overflow:hidden}
+.app-card:hover{transform:translateY(-4px) scale(1.01)}
+.app-card h2{margin:0 0 6px;font-size:1.4rem}
+.app-card p{margin:0;opacity:.9}
+.app-card.word{background:linear-gradient(135deg,#1d4ed8,#38bdf8)}
+.app-card.excel{background:linear-gradient(135deg,#15803d,#4ade80)}
+.app-card.powerpoint{background:linear-gradient(135deg,#c2410c,#fb923c)}
+.app-card.common{background:linear-gradient(135deg,#6d28d9,#ec4899)}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0;align-items:center}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+select{background:var(--glass);color:var(--text);border:1px solid var(--glass-border);border-radius:999px;padding:8px 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--glass);border:1px solid var(--glass-border);border-radius:var(--radius);
+  padding:14px;box-shadow:var(--card-shadow);backdrop-filter:blur(14px);display:flex;flex-direction:column;gap:10px}
+.card-top{display:flex;align-items:center;gap:8px}
+.badge{font-size:.72rem;font-weight:700;padding:4px 10px;border-radius:999px;color:#fff}
+.badge.word{background:#2563eb}.badge.excel{background:#16a34a}.badge.powerpoint{background:#ea580c}.badge.common{background:#7c3aed}
+.cat{font-size:.75rem;color:var(--muted);margin-inline-start:auto}
+.keys{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+kbd.key{
+  background:linear-gradient(180deg,#fff,#e2e8f0);color:#0f172a;border:1px solid #cbd5e1;border-bottom-width:3px;
+  border-radius:8px;padding:5px 10px;font-family:Consolas,monospace;font-weight:700;font-size:.85rem;min-width:34px;text-align:center;
+}
+[data-theme="dark"] kbd.key{background:linear-gradient(180deg,#334155,#0f172a);color:#fff;border-color:#475569}
+.plus{opacity:.6;font-weight:800}
+.desc{font-size:.95rem;line-height:1.6}
+.card-actions{display:flex;gap:8px;margin-top:auto}
+.icon-btn{flex:1;border:1px solid var(--glass-border);background:transparent;color:var(--text);
+  border-radius:12px;padding:8px;cursor:pointer;font-weight:700}
+.icon-btn.fav.active{background:#ffe4e6;color:#e11d48;border-color:#fecdd3}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:6px 2px;margin:10px 0}
+.tab{white-space:nowrap;border-radius:999px;padding:8px 16px;border:1px solid var(--glass-border);
+  background:var(--glass);color:var(--text);cursor:pointer;font-weight:600}
+.tab.active{background:var(--text);color:#fff}
+.section-title{margin:26px 0 8px;font-size:1.3rem}
+.quiz-box{background:var(--glass);border:1px solid var(--glass-border);border-radius:22px;padding:22px;
+  box-shadow:var(--card-shadow);backdrop-filter:blur(14px);max-width:700px;margin:0 auto}
+.quiz-opts{display:grid;gap:10px;margin-top:14px}
+.quiz-opt{padding:12px;border-radius:14px;border:1px solid var(--glass-border);background:transparent;
+  color:var(--text);cursor:pointer;text-align:start;font-size:1rem}
+.quiz-opt.correct{background:#dcfce7;border-color:#16a34a}
+.quiz-opt.wrong{background:#fee2e2;border-color:#ef4444}
+.empty{text-align:center;color:var(--muted);padding:40px 10px}
+footer{text-align:center;color:var(--muted);padding:24px;font-size:.85rem}
+@media(max-width:640px){.topbar{padding:10px}.controls{width:100%}}

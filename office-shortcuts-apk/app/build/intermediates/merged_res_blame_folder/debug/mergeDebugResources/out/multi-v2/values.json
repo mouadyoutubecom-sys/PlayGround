@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.officeshortcuts.pro.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/runner/work/PlayGround/PlayGround/office-shortcuts-apk/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}
